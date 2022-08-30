@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    width: 90vw;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.2rem;
+    gap: 1rem;
+    margin: 1rem 0;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}

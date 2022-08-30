@@ -1,0 +1,23 @@
+.title {
+    flex: 7;
+}
+.checkbox {
+    flex: 2;
+    display: table;
+    float: left;
+}
+label {
+    display: table-row;
+}
+#chk {
+    display: table-row;
+    width: 100%;
+}
+.buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 1rem;
+    gap: 5px;
+}
